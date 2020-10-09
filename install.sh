@@ -16,7 +16,7 @@ apt-get update && apt-get upgrade
 apt-get install $SOFTWARE_TO_INSTALL -y
 
 echo "Downloading JackTrip."
-cd /tmp && git clone https://github.com/jacktrip/jacktrip.git
+cd /tmp && git clone https://github.com/jacktrip/jacktrip.git && cd jacktrip
 
 echo "Building JackTrip."
 meson builddir --buildtype release
