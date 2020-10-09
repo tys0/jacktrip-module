@@ -11,7 +11,7 @@ Ensure that Patchbox OS is installed on your Raspberry Pi and is at least versio
 
 To install the JackTrip module, run:
 ```
-$ patchbox module install https://github.com/tysm/jacktrip-module
+$ patchbox module install https://github.com/tys0/jacktrip-module
 ```
 
 To activate the module on your Raspberry Pi, run:
