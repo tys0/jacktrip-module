@@ -1,0 +1,20 @@
+{
+    "name": "jacktrip",
+    "version": "1.2.1.0",
+    "description": "Connects to JackTrip server upon boot.",
+    "author": "tysm",
+    "launch_mode": "auto",
+    "depends_on": [
+        "jack.service",
+        {
+            "service": "pisound-btn.service",
+            "config": "pisound-btn.conf"
+        }
+    ],
+    "scripts": {
+        "install": "install.sh",
+        "launch": "launch.sh",
+        "list": "list.sh",
+        "stop": "stop.sh"
+    }
+}
